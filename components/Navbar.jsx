@@ -3,9 +3,9 @@ import Image from "next/image";
 import { useState } from "react";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
-import logo from "@/assets/images/logo-white.png";
+import logo from "../assets/images/logo-white.png";
 import { FaGoogle } from "react-icons/fa";
-import profileDefault from "@/assets/images/profile.png";
+import profileDefault from "../assets/images/profile.png";
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);

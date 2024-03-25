@@ -1,6 +1,6 @@
 import React from "react";
-import properties from "@/properties.json";
-import PropertyCard from "@/components/PropertyCard";
+import properties from "../../properties.json";
+import PropertyCard from "../../components/PropertyCard";
 
 const PropertiesPage = () => {
   return (

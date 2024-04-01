@@ -7,8 +7,8 @@ const HomePage = () => {
   return (
     <>
       <Hero />
-      <HomeProperties />
       <InfoBoxes />
+      <HomeProperties />
     </>
   );
 };

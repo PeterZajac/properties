@@ -12,7 +12,6 @@ const Navbar = () => {
   const [isProfileMenuOpen, setIsProfileMenuOpen] = useState(false);
   const [isLoggedIn, setIsLoggedIn] = useState(true);
   const pathname = usePathname();
-  console.log(pathname);
   return (
     <nav className="bg-blue-700 border-b border-blue-500">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -67,7 +66,7 @@ const Navbar = () => {
                   Home
                 </Link>
                 <Link
-                  href="properties"
+                  href="/properties"
                   className={`${
                     pathname === "/properties" ? "bg-black" : ""
                   } text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2`}
